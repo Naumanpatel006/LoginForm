@@ -89,10 +89,13 @@ body{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     font-weight: 600;
     color:#333;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-out;
     margin:20px 0;
     
 
+}
+.btn:hover{
+    transform: scale(1.1);
 }
 .wrapper .register{
     text-align:center;
